@@ -4,4 +4,4 @@ const HoldingsSchema = new Schema ({
 
 })
 
-export default HoldingsSchema;
+export default {HoldingsSchema};
