@@ -20,7 +20,7 @@ const Menu = () => {
   return (
     <div className="menu-container">
       <img src="logo.png" style={{ width: "50px" }} />
-      <div className="menus">
+      <div className="menus ">
         <ul>
           <li>
             <Link
@@ -89,9 +89,9 @@ const Menu = () => {
             </Link>
           </li>
         </ul>
-        <hr />
+        <hr className="border" /> 
         <div className="profile" onClick={handleProfileClick}>
-          <div className="avatar">ZU</div>
+          <div className="avatar ">ZU</div>
           <p className="username">USERID</p>
         </div>
       </div>
